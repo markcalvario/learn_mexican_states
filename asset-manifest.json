@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/learn_mexican_states/static/css/main.0d33f946.chunk.css",
+    "main.js": "/learn_mexican_states/static/js/main.fc5e6d5a.chunk.js",
+    "main.js.map": "/learn_mexican_states/static/js/main.fc5e6d5a.chunk.js.map",
+    "runtime-main.js": "/learn_mexican_states/static/js/runtime-main.8a133a17.js",
+    "runtime-main.js.map": "/learn_mexican_states/static/js/runtime-main.8a133a17.js.map",
+    "static/css/2.05581d4c.chunk.css": "/learn_mexican_states/static/css/2.05581d4c.chunk.css",
+    "static/js/2.b9b7c305.chunk.js": "/learn_mexican_states/static/js/2.b9b7c305.chunk.js",
+    "static/js/2.b9b7c305.chunk.js.map": "/learn_mexican_states/static/js/2.b9b7c305.chunk.js.map",
+    "index.html": "/learn_mexican_states/index.html",
+    "static/css/2.05581d4c.chunk.css.map": "/learn_mexican_states/static/css/2.05581d4c.chunk.css.map",
+    "static/css/main.0d33f946.chunk.css.map": "/learn_mexican_states/static/css/main.0d33f946.chunk.css.map",
+    "static/js/2.b9b7c305.chunk.js.LICENSE.txt": "/learn_mexican_states/static/js/2.b9b7c305.chunk.js.LICENSE.txt",
+    "static/media/mexico_map.f560cc6f.png": "/learn_mexican_states/static/media/mexico_map.f560cc6f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a133a17.js",
+    "static/css/2.05581d4c.chunk.css",
+    "static/js/2.b9b7c305.chunk.js",
+    "static/css/main.0d33f946.chunk.css",
+    "static/js/main.fc5e6d5a.chunk.js"
+  ]
+}
