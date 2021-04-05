@@ -1,0 +1,298 @@
+{
+    "Mexican States":[
+        {
+            "id": 1,
+            "state": "Aguascalientes",
+            "abv": "agu",
+            "img": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/200000/200533-Aguascalientes.jpg",
+            "questionClass":  "arrow-agu",
+            "arrowLength": 200,
+            "arrowWidth": "400px"
+        },
+        {
+            "id": 2,
+            "state": "Baja California",
+            "abv": "bcn",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Zbe1X7KnButwalCor1yT7JoyAf1gHPXvpA&usqp=CAU",
+            "questionClass":  "arrow-bcn",
+            "arrowLength": 200,
+            "arrowWidth": "400px"
+            
+        },
+        {
+            "id": 3,
+            "state": "Baja California Sur",
+            "abv": "bcs",
+            "img": "https://static.travelweekly.com/i/sized/780/437/images.ntmllc.com/v4/destination/Mexico/San-Jose-del-Cabo/220404_SCN1_San-Jose-del-Cabo_iStock000016193369_Z850B9.jpg",
+            "questionClass":  "arrow-bcs",
+            "arrowLength": 200,
+            "arrowWidth": "400px"
+        },
+        {
+            "id": 4,
+            "state": "Campeche",
+            "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/17/5d/41.jpg",
+            "abv": "cam",
+            "questionClass":  "arrow-cam",
+            "arrowLength": 200,
+            "arrowWidth": "260px"
+        
+        },
+        {
+            "id": 5,
+            "state": "c",
+            "img": "https://cdn.britannica.com/37/178937-050-21CBC6F1/Palenque-Temple-of-the-Inscriptions-Chiapas-Mexico.jpg",
+            "abv": "chp",
+            "questionClass":  "arrow-chp",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 6,
+            "state": "Chihuahua",
+            "abv": "chh",
+            "img": "https://www.travelsafe-abroad.com/wp-content/uploads/Chihuahua-Mexico.jpg",
+            "questionClass":  "arrow-chh",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+
+        },
+        {
+            "id": 7,
+            "state": "Coahuila",
+            "abv": "coa",
+            "img": "https://cdn.britannica.com/66/127866-004-7AE2E39C/Saltillo-Coahuila-Mexico.jpg",
+            "questionClass":  "arrow-coa",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 8,
+            "state": "Colima",
+            "abv": "col",
+            "img": "https://i.pinimg.com/originals/a8/44/9b/a8449b9a49628c4d6fb16fbb7c4e3a1e.jpg",
+            "questionClass":  "arrow-col",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 9,
+            "state": "Distrito Federal",
+            "img": "https://www.roadaffair.com/wp-content/uploads/2020/11/cathedral-zocalo-square-mexico-city-shutterstock_1323912815.jpg",
+            "abv": "cmx",
+            "questionClass":  "arrow-cmx",
+            "arrowLength": 300,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 10,
+            "state": "Durango",
+            "img": "https://cdn.britannica.com/46/155746-050-AE4F34E2/Plaza-Durango-Mexico.jpg",
+            "abv": "dur",
+            "questionClass":  "arrow-dur",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 11,
+            "state": "Guanajuato",
+            "abv": "gua",
+            "img": "https://s28838.pcdn.co/wp-content/uploads/2013/12/IMG_4266a.jpg.optimal.jpg",
+            "questionClass":  "arrow-gua",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 12,
+            "state": "Guerrero",
+            "abv": "gro",
+            "img": "http://www.zihrena.net/wordpress/wp-content/uploads/P1100038.jpg",
+            "questionClass":  "arrow-gro",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+            
+        },
+        {
+            "id": 13,
+            "state": "Hidalgo",
+            "abv": "hid",
+            "img": "https://media3.s-nbcnews.com/j/newscms/2017_37/2157271/170907-carlos-munoz-portal-229-rs_0f87974ce82b56bfa243cc9ea1de95c7.fit-760w.jpg",
+            "questionClass":  "arrow-hid",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 14,
+            "state": "Jalisco",
+            "abv": "jal",
+            "img": "https://lp-cms-production.imgix.net/2021-01/Puerto_Vallarta.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850",
+            "questionClass":  "arrow-jal",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 15,
+            "state": "México",
+            "abv": "mex",
+            "img": "https://www.mexinsurance.com/wp-content/uploads/2012/11/nevado-de-toluca-mexico.jpg",
+            "questionClass":  "arrow-mex",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 16,
+            "state": "Michoacán",
+            "abv": "mic",
+            "img": "https://malvatraveltomexico.com.mx/wp-content/uploads/2020/05/0-Portada.jpg",
+            "questionClass":  "arrow-mic",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 17,
+            "state": "Morelos",
+            "abv": "mor",
+            "img": "http://2.bp.blogspot.com/-eGBalK265zg/VGalgMHJj7I/AAAAAAAAPNk/gzZJ2g3h2DU/s1600/cuernavaca-morelos-hoteles-boutique-en-mexico-3.jpg",
+            "questionClass":  "arrow-mor",
+            "arrowLength": 300,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 18,
+            "state": "Nayarit",
+            "abv": "nay",
+            "img":"https://bucketrediseno.s3.amazonaws.com/uploads/template_destination/image/4/optimizada_riviera-nayarit-01.jpg",
+            "questionClass":  "arrow-nay",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 19,
+            "state": "Nuevo León",
+            "abv": "nle",
+            "img": "https://mexico-now.com/wp-content/uploads/2020/12/el-cerro-de-la-silla.jpg",
+            "questionClass":  "arrow-nle",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 20,
+            "state": "Oaxaca",
+            "abv": "oax",
+            "img": "https://media.nomadicmatt.com/2021/oaxaca1.jpg",
+            "questionClass":  "arrow-oax",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+            
+        },
+        {
+            "id": 21,
+            "state": "Puebla",
+            "abv": "pue",
+            "img": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1128095909%2F960x0.jpg%3Ffit%3Dscale",
+            "questionClass":  "arrow-pue",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 22,
+            "state": "Querétaro",
+            "abv": "que",
+            "img": "https://www.tripsavvy.com/thmb/bCKllHIi-UdCtsjMU3_AQ9j2tls=/1407x1407/smart/filters:no_upscale()/queretero-city-main-5b354a0046e0fb0037027d93.jpg",
+            "questionClass":  "arrow-que",
+            "arrowLength": 200,
+            "arrowWidth": "250px"
+        },
+        {
+            "id": 23,
+            "state": "Quintana Roo",
+            "abv": "roo",
+            "img": "https://i0.wp.com/s3.amazonaws.com/qroo/wp-content/uploads/2018/11/23045514/QROO-640x424.jpg?resize=640%2C424",
+            "questionClass":  "arrow-roo",
+            "arrowLength": 200,
+            "arrowWidth": "160px"
+            
+        },
+        {
+            "id": 24,
+            "state": "San Luis Potosí",
+            "abv": "slp",
+            "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/cd/58/d4/photo0jpg.jpg?w=1000&h=600&s=1",
+            "questionClass":  "arrow-slp",
+            "arrowLength": 200,
+            "arrowWidth": "200px"
+        },
+        {
+            "id": 25,
+            "state": "Sinaloa",
+            "abv": "sin",
+            "img": "https://airlines-airports.com/wp-content/uploads/2016/09/Mexico-Sinaloa-850x500.jpg",
+            "questionClass":  "arrow-sin",
+            "arrowLength": 200,
+            "arrowWidth": "200px"
+        },
+        {
+            "id": 26,
+            "state": "Sonora",
+            "abv": "son",
+            "img": "https://i.pinimg.com/originals/45/c6/57/45c6578d64a3c6418ac555c79a835608.jpg",
+            "questionClass":  "arrow-son",
+            "arrowLength": 200,
+            "arrowWidth": "200px"
+        },
+        {
+            "id": 27,
+            "state": "Tabasco",
+            "abv": "tab",
+            "img": "https://static.onecms.io/wp-content/uploads/sites/28/2020/08/14/tabasco-state-mexico-palenque-temple-TABASCOWNR0920.jpg",
+            "questionClass":  "arrow-tab",
+            "arrowLength": 200,
+            "arrowWidth": "200px"
+        },
+        {
+            "id": 28,
+            "state": "Tamaulipas",
+            "abv": "tam",
+            "img": "https://mexicanroutes.com/wp-content/uploads/2017/05/MexicanRoutes-CiudadVictoria-520x245.jpg",
+            "questionClass":  "arrow-tam",
+            "arrowLength": 200,
+            "arrowWidth": "200px"
+        },
+        {
+            "id": 29,
+            "state": "Tlaxcala",
+            "abv": "tla",
+            "img": "https://live.staticflickr.com/753/22700183771_84361fe76d_b.jpg",
+            "questionClass":  "arrow-tla",
+            "arrowLength": 200,
+            "arrowWidth": "200px"
+        },
+        {
+            "id": 30,
+            "state": "Veracruz",
+            "abv": "ver",
+            "img": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/228000/228179-Veracruz-Province.jpg",
+            "questionClass":  "arrow-ver",
+            "arrowLength": 200,
+            "arrowWidth": "200px"
+        },
+        {
+            "id": 31,
+            "state": "Yucatán",
+            "abv": "yuc",
+            "img": "https://www.fodors.com/wp-content/uploads/2019/09/UltimateYucatan__HERO_shutterstock_740937640.jpg",
+            "questionClass":  "arrow-yuc",
+            "arrowLength": 200,
+            "arrowWidth": "180px"
+        },
+        {
+            "id": 32,
+            "state": "Zacatecas",
+            "abv": "zac",
+            "img": "https://k9h2z2w9.stackpathcdn.com/wp-content/uploads/Zacatecas-Cathedral-Mountain-NBS-750x375.jpg",
+            "questionClass":  "arrow-zac",
+            "arrowLength": 200,
+            "arrowWidth": "200px"
+        }
+    ]
+}

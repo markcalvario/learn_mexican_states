@@ -1,9 +1,8 @@
-import React from "react";
+import React,{useEffect, useState} from "react";
 import "./Learnpage.css";
 import styled from "styled-components";
 import {Link} from "react-router-dom";
 
-import States from "../data/MexicanStates";
 //REACT BOOTSTRAP 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -19,6 +18,15 @@ const Title = styled.div`
 
 
 function LearnPage() {
+    const [mexicanStates, setMexicanStates] = useState([]);
+    useEffect( ()=>{
+        async function fetchState(){
+            let response = await fetch("/get_states");
+            response = await response.json();
+            setMexicanStates(response.states);
+        }
+        fetchState();
+    },[])
   return (
     <Container>
         <Row>
@@ -29,7 +37,7 @@ function LearnPage() {
             </Col>
         </Row>
         <Row className="pt-4">
-            {States.map((state)=>{
+            {mexicanStates.map((state)=>{
                 return (
                     <Col key={state.id} xl={3} className="py-2">
                         <Link to={`/learn/${state.id}`}>

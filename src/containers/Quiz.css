@@ -1,0 +1,216 @@
+.svg-map__location{
+    fill: rgb(206, 206, 206);
+}
+.svg-map-wrong{
+    fill: rgb(231, 78, 78);
+}
+.svg-map-right{
+    fill: rgb(60, 202, 60);
+}
+.svg-map__location:hover{
+    fill: white;
+}
+#mexico-map{
+    height:100px !important;
+    width: 100px !important;
+}
+.state-input{
+    position: absolute;
+    top: 0;
+    width: 50% !important;
+    border: 1px solid black !important;
+}
+
+/* ARROWS FOR EACH STATES */
+.arrow-agu{
+    position: absolute;
+    top: 57%;
+    left: 49%;
+    z-index: 1;
+}
+.arrow-bcn{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+.arrow-bcs{
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    z-index: 1;
+}
+.arrow-cam{
+    position: absolute;
+    top: 72%;
+    left: 71%;
+    z-index: 1;
+}
+.arrow-chp{
+    position: absolute;
+    top: 79%;
+    left: 67%;
+    z-index: 1;
+}
+.arrow-chh{
+    position: absolute;
+    top: 37%;
+    left: 44%;
+    z-index: 1;
+}
+.arrow-coa{
+    position: absolute;
+    top: 39%;
+    left: 51%;
+    z-index: 1;
+}
+.arrow-col{
+    position: absolute;
+    top: 71.5%;
+    left: 46.5%;
+    z-index: 1;
+}
+.arrow-dur{
+    position: absolute;
+    top: 54%;
+    left: 45%;
+    z-index: 1;
+}
+.arrow-gua{
+    position: absolute;
+    top: 66%;
+    left: 51%;
+    z-index: 1;
+}
+.arrow-gro{
+    position: absolute;
+    top: 78%;
+    left: 54%;
+    z-index: 1;
+}
+.arrow-hid{
+    position: absolute;
+    top: 67%;
+    left: 56%;
+    z-index: 1;
+}
+.arrow-jal{
+    position: absolute;
+    top: 68%;
+    left: 47%;
+    z-index: 1;
+}
+.arrow-cmx{
+    position: absolute;
+    top: 71.5%;
+    left: 55.6%;
+    z-index: 1;
+}
+.arrow-mex{
+    position: absolute;
+    top: 72%;
+    left: 54%;
+    z-index: 1;
+}
+.arrow-mic{
+    position: absolute;
+    top: 72%;
+    left: 51%;
+    z-index: 1;
+}
+.arrow-mor{
+    position: absolute;
+    top: 73.7%;
+    left: 55.8%;
+    z-index: 1;
+}
+.arrow-nay{
+    position: absolute;
+    top: 63%;
+    left: 45%;
+    z-index: 1;
+}
+.arrow-nle{
+    position: absolute;
+    top: 49%;
+    left: 54%;
+    z-index: 1;
+}
+.arrow-oax{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    z-index: 1;
+}
+.arrow-pue{
+    position: absolute;
+    top: 74%;
+    left: 57.5%;
+    z-index: 1;
+}
+.arrow-que{
+    position: absolute;
+    top: 66%;
+    left: 53.6%;
+    z-index: 1;
+}
+.arrow-roo{
+    position: absolute;
+    top: 73%;
+    left: 75%;
+    z-index: 1;
+}
+.arrow-slp{
+    position: absolute;
+    top: 63%;
+    left: 53%;
+    z-index: 1;
+}
+.arrow-sin{
+    position: absolute;
+    top: 53%;
+    left: 39.7%;
+    z-index: 1;
+}
+.arrow-son{
+    position: absolute;
+    top: 35%;
+    left: 34.7%;
+    z-index: 1;
+}
+.arrow-tab{
+    position: absolute;
+    top: 77%;
+    left: 67.2%;
+    z-index: 1;
+}
+.arrow-tam{
+    position: absolute;
+    top: 57%;
+    left: 56.2%;
+    z-index: 1;
+}
+.arrow-tla{
+    position: absolute;
+    top: 72%;
+    left: 57.5%;
+    z-index: 1;
+}
+.arrow-ver{
+    position: absolute;
+    top: 73%;
+    left: 60.2%;
+    z-index: 1;
+}
+.arrow-yuc{
+    position: absolute;
+    top: 68%;
+    left: 74%;
+    z-index: 1;
+}
+.arrow-zac{
+    position: absolute;
+    top: 58%;
+    left: 49%;
+    z-index: 1;
+}

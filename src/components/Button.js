@@ -16,7 +16,7 @@ const Text = styled.p`
 
 const Button = ({link,text}) => {
   return (
-      <Link to={link}>
+      <Link to={link} onClick={() => {window.location.href=`${link}`}}>
         <ButtonComponent>
             <Text>{text}</Text>
         </ButtonComponent>
