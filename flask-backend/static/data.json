@@ -7,7 +7,13 @@
             "img": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/200000/200533-Aguascalientes.jpg",
             "questionClass":  "arrow-agu",
             "arrowLength": 200,
-            "arrowWidth": "400px"
+            "arrowWidth": "400px",
+            "description": "One of Mexico’s smallest states, it is bounded to the west, north, and east by the state of Zacatecas and to the south and southeast by the state of Jalisco. The city of Aguascalientes is the state capital.",
+            "funFacts": [
+                "Translates to 'hot water' in English",
+                "Called 'el corazón' which means 'the heart' of Mexico because it lies in the middle of the country",
+                "One of the smallest Mexican states"
+            ]
         },
         {
             "id": 2,
@@ -16,7 +22,13 @@
             "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Zbe1X7KnButwalCor1yT7JoyAf1gHPXvpA&usqp=CAU",
             "questionClass":  "arrow-bcn",
             "arrowLength": 200,
-            "arrowWidth": "400px"
+            "arrowWidth": "400px",
+            "description": "Baja California is bounded to the north by the United States (California and Arizona), to the east by the state of Sonora and the Gulf of California (Sea of Cortez), to the west by the Pacific Ocean, and to the south by the state of Baja California Sur. Its capital city, Mexicali, lies on the U.S.-Mexico border.",
+            "funFacts": [
+                "It's a peninsula",
+                "Borders the U.S. with California",
+                "Is divided into five municipalities: Ensenada, Mexicali, Tecate, Tijuana, and Playas de Rosarito"
+            ]
             
         },
         {
@@ -26,7 +38,12 @@
             "img": "https://static.travelweekly.com/i/sized/780/437/images.ntmllc.com/v4/destination/Mexico/San-Jose-del-Cabo/220404_SCN1_San-Jose-del-Cabo_iStock000016193369_Z850B9.jpg",
             "questionClass":  "arrow-bcs",
             "arrowLength": 200,
-            "arrowWidth": "400px"
+            "arrowWidth": "400px",
+            "description":"It is bounded to the north by the state of Baja California, to the east by the Gulf of California (also called Sea of Cortez), and to the west and south by the Pacific Ocean.",
+            "funFacts": [
+                "Home to the tourist resorts of Cabo San Lucas and San José del Cabo",
+                "It belongs to the southern part of the peninsula"
+            ]
         },
         {
             "id": 4,
@@ -35,17 +52,29 @@
             "abv": "cam",
             "questionClass":  "arrow-cam",
             "arrowLength": 200,
-            "arrowWidth": "260px"
+            "arrowWidth": "260px",
+            "description":"Campeche, southeastern Mexico, on the western part of the Yucatán Peninsula. It is bounded to the north and east by the state of Yucatán, to the east by the state of Quintana Roo, to the south by Guatemala, to the southwest by the state of Tabasco, and to the west by the Bay of Campeche, an inlet of the Gulf of Mexico.",
+            "funFacts": [
+                "Home to Mexico's oldest carnival, a pre-Lenten celebration that has been observed for over 450 years",
+                "Many Mayans used to live here, and 15 percent of them speak the Mayan language as their first language.",
+                "The city of this state is surrounded by walls built to protect it from pirate attacks."
+            ]
         
         },
         {
             "id": 5,
-            "state": "c",
+            "state": "Chiapas",
             "img": "https://cdn.britannica.com/37/178937-050-21CBC6F1/Palenque-Temple-of-the-Inscriptions-Chiapas-Mexico.jpg",
             "abv": "chp",
             "questionClass":  "arrow-chp",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description": "It is bounded to the north by the state of Tabasco, to the east by Guatemala, to the southwest by the Gulf of Tehuantepec and the Pacific Ocean, and to the west by the states of Oaxaca and Veracruz. ",
+            "funFacts": [
+                "Borders with Guatemala",
+                "Well-known for its coffee production",
+                "The scene of several rebellions and battles, including heavy fighting during the Mexican Revolution"
+            ]
         },
         {
             "id": 6,
@@ -54,7 +83,13 @@
             "img": "https://www.travelsafe-abroad.com/wp-content/uploads/Chihuahua-Mexico.jpg",
             "questionClass":  "arrow-chh",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded to the north and northeast by the United States (New Mexico and Texas), to the east by the state of Coahuila, to the south by the state of Durango, and to the west by the states of Sinaloa and Sonora. Its capital is the city of Chihuahua.",
+            "funFacts": [
+                "This is the largest Mexican state",
+                "Borders with New Mexico and Texas",
+                "Also the name of a dog breed"
+            ]
 
         },
         {
@@ -64,7 +99,12 @@
             "img": "https://cdn.britannica.com/66/127866-004-7AE2E39C/Saltillo-Coahuila-Mexico.jpg",
             "questionClass":  "arrow-coa",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the United States (Texas) to the north and northeast and by the states of Nuevo León to the east, San Luis Potosí and Zacatecas to the south, and Durango and Chihuahua to the west. Saltillo is the capital.",
+            "funFacts": [
+                "Border Texas along the course of the Rio Grande river",
+                "This state and Texas formed a single state in 1824 before the U.S. stole Texas"
+            ]
         },
         {
             "id": 8,
@@ -73,7 +113,12 @@
             "img": "https://i.pinimg.com/originals/a8/44/9b/a8449b9a49628c4d6fb16fbb7c4e3a1e.jpg",
             "questionClass":  "arrow-col",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the states of Jalisco to the northwest and north and Michoacán to the east and by the Pacific Ocean to the south and west. Colima city is the state capital.",
+            "funFacts": [
+                "One of the biggest attractions in this state is the volcano called Volcan de Fuego",
+                "Fourth smallest state in Mexico"
+            ]
         },
         {
             "id": 9,
@@ -82,7 +127,14 @@
             "abv": "cmx",
             "questionClass":  "arrow-cmx",
             "arrowLength": 300,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is officially equivalent with Mexico City, although the Mexico City metropolitan area extends beyond the district’s boundaries. It is bounded by the states of México to the west, north, and east and Morelos to the south.",
+            "funFacts": [
+                "The nation's capital",
+                "Home to the Basilica of Our Lady of Guadalupe",
+                "Was home to the Mexica people and was initially built over a lake, the Lago de Texcoco"
+            ]
+
         },
         {
             "id": 10,
@@ -91,7 +143,12 @@
             "abv": "dur",
             "questionClass":  "arrow-dur",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the states of Chihuahua to the north, Coahuila and Zacatecas to the east, Jalisco and Nayarit to the south, and Sinaloa to the west. The state capital is the city of Durango (Durango de Victoria).",
+            "funFacts": [
+                "Name comes from the Basque word 'Urango' meaning 'water town.'",
+                "During the Spanish colonial period, it was part of an administrative division known as Nuevo Vizcaya, which included the future state of Chihuahua to the north."
+            ]
         },
         {
             "id": 11,
@@ -100,7 +157,12 @@
             "img": "https://s28838.pcdn.co/wp-content/uploads/2013/12/IMG_4266a.jpg.optimal.jpg",
             "questionClass":  "arrow-gua",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the states of San Luis Potosí to the north and northeast, Querétaro to the east, Michoacán to the south, and Jalisco to the west. The city of Guanajuato is the state capital.",
+            "funFacts": [
+                "Name is derived from the Purépecha word Cuanaxhuato, which means the 'mountainous place of frogs'",
+                "The Mexican War of Independence began here when a Catholic priest, Miguel Hidalgo, gave a battle cry of the Mexican War of Independence on September 28, 1810."
+            ]
         },
         {
             "id": 12,
@@ -109,7 +171,13 @@
             "img": "http://www.zihrena.net/wordpress/wp-content/uploads/P1100038.jpg",
             "questionClass":  "arrow-gro",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the Pacific Ocean to the south and west and by the states of Michoacán to the northwest, México and Morelos to the north, Puebla to the northeast, and Oaxaca to the east. Chilpancingo (Chilpancingo de los Bravo) is the capital city.",
+            "funFacts": [
+                "Named for Vicente <state> , a general in the Mexican Independence War and the second President of Mexico",
+                "Acapulco is the largest city in this state it brings a lot of tourism"
+            ]
+        
             
         },
         {
@@ -119,7 +187,11 @@
             "img": "https://media3.s-nbcnews.com/j/newscms/2017_37/2157271/170907-carlos-munoz-portal-229-rs_0f87974ce82b56bfa243cc9ea1de95c7.fit-760w.jpg",
             "questionClass":  "arrow-hid",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"Hidalgo is an eastern state of Mexico that borders the Mexican states of Queretaro, Mexico, Tlaxcala, Puebla, Veracruz, and San Luis Potosi. The state capital and largest city is Pachuca (Pachuca de Soto).",
+            "funFacts": [
+                "Named in honor of the initiator of the Mexican War of Independence and his Grito de Dolores, Miguel <name of the state>"
+            ]
         },
         {
             "id": 14,
@@ -128,25 +200,41 @@
             "img": "https://lp-cms-production.imgix.net/2021-01/Puerto_Vallarta.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850",
             "questionClass":  "arrow-jal",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the states of Nayarit to the northwest, Zacatecas and Aguascalientes to the north, San Luis Potosí and Guanajuato to the east, and Michoacán and Colima to the south and by the Pacific Ocean to the west. Its capital and largest city is Guadalajara.",
+            "funFacts": [
+                "Gave birth to Mariachi music, charreadas (Mexican rodeos), the Mexican Hat Dance, tequila and the wide-brimmed sombrero",
+                "Tequila, made from the sap of the blue agave cactus is the best known product that comes from this state "
+            ]
         },
         {
             "id": 15,
-            "state": "México",
+            "state": "Mexico",
             "abv": "mex",
             "img": "https://www.mexinsurance.com/wp-content/uploads/2012/11/nevado-de-toluca-mexico.jpg",
             "questionClass":  "arrow-mex",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description": "It is bounded by the states of Michoacán to the west, Querétaro and Hidalgo to the north, Tlaxcala and Puebla to the east and southeast, and Morelos and Guerrero to the south, and it also surrounds the Federal District on three sides to the south. The state capital is Toluca (Toluca de Lerdo).",
+            "funFacts": [
+                "Its name is a Náhuatl term derived from the words metztli (moon), xictli (navel or center) and co (place).",
+                "partially encircles the Federal District (CDMX)",
+                "Residents of the state are called mexiquenses"
+            ]
         },
         {
             "id": 16,
-            "state": "Michoacán",
+            "state": "Michoacan",
             "abv": "mic",
             "img": "https://malvatraveltomexico.com.mx/wp-content/uploads/2020/05/0-Portada.jpg",
             "questionClass":  "arrow-mic",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the Pacific Ocean to the southwest and by the states of Colima and Jalisco to the west, Guanajuato to the north, Querétaro to the northeast, México to the east, and Guerrero to the south. The capital is Morelia.",
+            "funFacts": [
+                "Has a city that is known as the avocado capital of the world",
+                "The origin of the state’s name is thought to be the native word Mechoacan, which means 'place of the fishermen.'"
+            ]
         },
         {
             "id": 17,
@@ -155,7 +243,12 @@
             "img": "http://2.bp.blogspot.com/-eGBalK265zg/VGalgMHJj7I/AAAAAAAAPNk/gzZJ2g3h2DU/s1600/cuernavaca-morelos-hoteles-boutique-en-mexico-3.jpg",
             "questionClass":  "arrow-mor",
             "arrowLength": 300,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bordered to the west and north by the state of México and the Federal District, to the east and southeast by the state of Puebla, and to the south and southwest by the state of Guerrero. The capital is Cuernavaca.",
+            "funFacts": [
+                "Known as the 'Central Breadbasket' due to its ample agricultural production",
+                "The birthplace of Emiliano Zapata, an well-known leader in the Mexican Revolution."
+            ]
         },
         {
             "id": 18,
@@ -164,16 +257,27 @@
             "img":"https://bucketrediseno.s3.amazonaws.com/uploads/template_destination/image/4/optimizada_riviera-nayarit-01.jpg",
             "questionClass":  "arrow-nay",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the states of Sinaloa to the northwest, Durango and Zacatecas to the north and northeast, and Jalisco to the south and by the Pacific Ocean to the west. The state capital is Tepic.",
+            "funFacts": [
+                "One of the smallest Mexican states",
+                "The region of this state was influenced by the Toltec people (AD 900-1200) and the Aztecs (1427-1519)"
+            ]
         },
         {
             "id": 19,
-            "state": "Nuevo León",
+            "state": "Nuevo Leon",
             "abv": "nle",
             "img": "https://mexico-now.com/wp-content/uploads/2020/12/el-cerro-de-la-silla.jpg",
             "questionClass":  "arrow-nle",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is located in Northeastern Mexico. It is bordered by the states of Tamaulipas to the north and east, San Luis Potosí to the south, and Coahuila to the west. The state capital is Monterrey.",
+            "funFacts": [
+                "The state was named after the New Kingdom of León, an administrative territory of the Viceroyalty of New Spain",
+                "Has the highest GDP of any Mexican state",
+                "Part of it in the north border Texas"
+            ]
         },
         {
             "id": 20,
@@ -182,7 +286,13 @@
             "img": "https://media.nomadicmatt.com/2021/oaxaca1.jpg",
             "questionClass":  "arrow-oax",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the states of Puebla and Veracruz to the north and Chiapas to the east, by the Pacific Ocean to the south, and by the state of Guerrero to the west. The city of Oaxaca (Oaxaca de Juárez) is the state capital.",
+            "funFacts": [
+                "The name comes from the Nahuatl, “Huaxyacac”, which refers to a tree.",
+                "Benito Juarez, Mexico’s previous president, was Zapotec and was born here.",
+                "Known as 'The Land of the Seven Moles'"
+            ]
             
         },
         {
@@ -192,16 +302,27 @@
             "img": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1128095909%2F960x0.jpg%3Ffit%3Dscale",
             "questionClass":  "arrow-pue",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the states of Veracruz to the north and east, Oaxaca to the south, Guerrero to the southwest, Morelos and México to the west, and Tlaxcala and Hidalgo to the northwest. Its capital is the city of Puebla.",
+            "funFacts": [
+                "Birthplace of Cinco de Mayo, where Mexicans temporarily defeated the French invasion",
+                "The Great Pyramid of Cholula, one of the world’s largest pyramids, was built here",
+                "Is close to the volcano, Popocatepetl"
+            ]
         },
         {
             "id": 22,
-            "state": "Querétaro",
+            "state": "Queretaro",
             "abv": "que",
             "img": "https://www.tripsavvy.com/thmb/bCKllHIi-UdCtsjMU3_AQ9j2tls=/1407x1407/smart/filters:no_upscale()/queretero-city-main-5b354a0046e0fb0037027d93.jpg",
             "questionClass":  "arrow-que",
             "arrowLength": 200,
-            "arrowWidth": "250px"
+            "arrowWidth": "250px",
+            "description":"It is bounded by the states of San Luis Potosí to the north and northeast, Hidalgo and México to the southeast, Michoacán to the southwest, and Guanajuato to the west. The capital is the city of Querétaro.",
+            "funFacts": [
+                "Emperor Maximilian who was installed by the French government to rule Mexico in the 19th century, was executed here",
+                "The state’s name is derived from Queréndaro, a Tarascan word for 'place of the crags'"
+            ]
         },
         {
             "id": 23,
@@ -210,17 +331,27 @@
             "img": "https://i0.wp.com/s3.amazonaws.com/qroo/wp-content/uploads/2018/11/23045514/QROO-640x424.jpg?resize=640%2C424",
             "questionClass":  "arrow-roo",
             "arrowLength": 200,
-            "arrowWidth": "160px"
+            "arrowWidth": "160px",
+            "description":"Its northern shore is on the Yucatán Channel, a passage between the Gulf of Mexico and the Caribbean Sea; it is also bounded by the Caribbean to the east, by Belize and Guatemala to the south, by the state of Campeche to the west, and by the state of Yucatán to the northwest. The state capital is Chetumal.",
+            "funFacts": [
+                "Cancún is located in this state and it's a famous tourist attraction",
+                "In 1902, the territory was named after a well-known lawyer, Andrés <name of state>"
+            ]
             
         },
         {
             "id": 24,
-            "state": "San Luis Potosí",
+            "state": "San Luis Potosi",
             "abv": "slp",
             "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/cd/58/d4/photo0jpg.jpg?w=1000&h=600&s=1",
             "questionClass":  "arrow-slp",
             "arrowLength": 200,
-            "arrowWidth": "200px"
+            "arrowWidth": "200px",
+            "description":" It is bounded by the states of Coahuila to the north; Nuevo León, Tamaulipas, and Veracruz to the east; Hidalgo, Querétaro, and Guanajuato to the south; and Jalisco and Zacatecas to the west. The capital, the city of San Luis Potosí, is located in the southwest.",
+            "funFacts": [
+                "Silver was the main mineral mined in this state",
+                "Most of the state is on a plateau so snow is very rare and rainfall is moderate"
+            ]
         },
         {
             "id": 25,
@@ -229,7 +360,13 @@
             "img": "https://airlines-airports.com/wp-content/uploads/2016/09/Mexico-Sinaloa-850x500.jpg",
             "questionClass":  "arrow-sin",
             "arrowLength": 200,
-            "arrowWidth": "200px"
+            "arrowWidth": "200px",
+            "description": "It is bounded by the Gulf of California (also called the Sea of Cortez) and the Pacific Ocean to the west and by the states of Sonora to the north, Chihuahua and Durango to the east, and Nayarit to the south. Its capital city is Culiacán.",
+            "funFacts": [
+                "The 'Breadbasket of Mexico' devotes over three quarters of its landmass to agricultural production",
+                "The home of five-time world champion boxer Julio Cesar Chavez",
+                "The word Sinaloa, which originated with the indigenous Cahita Indians, means rounded pitaya, a common local fruit"
+            ]
         },
         {
             "id": 26,
@@ -238,7 +375,13 @@
             "img": "https://i.pinimg.com/originals/45/c6/57/45c6578d64a3c6418ac555c79a835608.jpg",
             "questionClass":  "arrow-son",
             "arrowLength": 200,
-            "arrowWidth": "200px"
+            "arrowWidth": "200px",
+            "description":"It is bounded by the United States (Arizona and New Mexico) to the north, by the states of Chihuahua to the east and Sinaloa to the south, and by Baja California state and the Gulf of California (Sea of Cortez) to the west. Hermosillo is the state capital.",
+            "funFacts": [
+                "Home to 8 indigenous groups: Mayos, Yaquis, Pimas, Guarijíos, Series, Pápagos, Cucapá, Kikapoo",
+                "Has a city named Hermosillo which once held the title for hottest populated city in the whole world",
+                "This state's most popular sport is baseball"
+            ]
         },
         {
             "id": 27,
@@ -247,7 +390,13 @@
             "img": "https://static.onecms.io/wp-content/uploads/sites/28/2020/08/14/tabasco-state-mexico-palenque-temple-TABASCOWNR0920.jpg",
             "questionClass":  "arrow-tab",
             "arrowLength": 200,
-            "arrowWidth": "200px"
+            "arrowWidth": "200px",
+            "description":"It is bounded by the Gulf of Mexico to the north, by the state of Campeche to the east, by Guatemala to the southeast, and by the states of Chiapas to the south and Veracruz to the west. Its capital city is Villahermosa.",
+            "funFacts": [
+                "This state is often credited as the place where chocolate originated",
+                "It's believed that the state's name is derived from the native Aztec word tlapaco, which means 'humid land'",
+                "The spoken language sounds much like Caribbean Spanish"
+            ]
         },
         {
             "id": 28,
@@ -256,7 +405,12 @@
             "img": "https://mexicanroutes.com/wp-content/uploads/2017/05/MexicanRoutes-CiudadVictoria-520x245.jpg",
             "questionClass":  "arrow-tam",
             "arrowLength": 200,
-            "arrowWidth": "200px"
+            "arrowWidth": "200px",
+            "description": "It is bounded by the United States (Texas) to the north, the Gulf of Mexico to the east, and the states of Veracruz to the south, San Luis Potosí to the southwest and west, and Nuevo León to the west. Ciudad Victoria is the state capital.",
+            "funFacts": [
+                "Gets its name from a Huastec word, Tamaholipa, which can be translated as either 'place where people pray' or 'place of the high mountains'",
+                "Was part of the Republic of the Rio Grande in 1840"
+            ]
         },
         {
             "id": 29,
@@ -265,7 +419,13 @@
             "img": "https://live.staticflickr.com/753/22700183771_84361fe76d_b.jpg",
             "questionClass":  "arrow-tla",
             "arrowLength": 200,
-            "arrowWidth": "200px"
+            "arrowWidth": "200px",
+            "description":"It is bordered by the states of Puebla to the northeast, east, and south, México to the west, and Hidalgo to the northwest. The capital is the city of Tlaxcala.",
+            "funFacts": [
+                "The smallest Mexican state",
+                "Once home to the ancient Olmeca–Xicalanca civilization",
+                "The highest peak in this state is the extinct volcano La Malinche"
+            ]
         },
         {
             "id": 30,
@@ -274,16 +434,27 @@
             "img": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/228000/228179-Veracruz-Province.jpg",
             "questionClass":  "arrow-ver",
             "arrowLength": 200,
-            "arrowWidth": "200px"
+            "arrowWidth": "200px",
+            "description":"Veracruz is bounded by the state of Tamaulipas to the north, by the Gulf of Mexico to the east, and by the states of Tabasco and Chiapas to the southeast, Oaxaca to the southwest, and Puebla, Hidalgo, and San Luis Potosí to the west. The state capital is Xalapa.",
+            "funFacts": [
+                "Named by the Spanish explorer Hernán Cortés",
+                "Nine days before Ash Wednesday, it hosts its famous Carnaval, a festival similar to Mardi Gras."
+            ]
         },
         {
             "id": 31,
-            "state": "Yucatán",
+            "state": "Yucatan",
             "abv": "yuc",
             "img": "https://www.fodors.com/wp-content/uploads/2019/09/UltimateYucatan__HERO_shutterstock_740937640.jpg",
             "questionClass":  "arrow-yuc",
             "arrowLength": 200,
-            "arrowWidth": "180px"
+            "arrowWidth": "180px",
+            "description":"Occupying part of the northern Yucatán Peninsula, it is bounded to the north by the Gulf of Mexico, to the east and southeast by the state of Quintana Roo, and to the southwest and west by the state of Campeche. The state capital and chief commercial centre is Mérida.",
+            "funFacts": [
+                "It's in a peninsula",
+                "Home to North America’s largest indigenous population, the Mayans",
+                "State is most famous for its Mayan ruins such as in Chichén Itzá"
+            ]
         },
         {
             "id": 32,
@@ -292,7 +463,12 @@
             "img": "https://k9h2z2w9.stackpathcdn.com/wp-content/uploads/Zacatecas-Cathedral-Mountain-NBS-750x375.jpg",
             "questionClass":  "arrow-zac",
             "arrowLength": 200,
-            "arrowWidth": "200px"
+            "arrowWidth": "200px",
+            "description":"It is bordered by the states of Coahuila to the north, San Luis Potosí to the east, Jalisco and Aguascalientes to the south, and Nayarit and Durango to the west. Its capital is the city of Zacatecas.",
+            "funFacts": [
+                "Much of the this state's region is desert",
+                "The state's economy is based on mining"
+            ]
         }
     ]
 }

@@ -11,9 +11,10 @@ import Card from "react-bootstrap/Card";
 
 const Title = styled.div`
     text-align:center;
-    font-size: 2.75rem;
+    font-size: 3rem;
     padding: 4rem 0 1.5rem 0;
     letter-spacing: 2px;
+    font-weight: 650;
 `;
 
 
@@ -36,15 +37,16 @@ function LearnPage() {
                 </Title>
             </Col>
         </Row>
+
         <Row className="pt-4">
             {mexicanStates.map((state)=>{
                 return (
                     <Col key={state.id} xl={3} className="py-2">
                         <Link to={`/learn/${state.id}`}>
-                            <Card>
+                            <Card className="state-card">
                                 <Card.Img variant="top" className ="even-card-img" src={state.img} />
                                 <Card.Body>
-                                    <Card.Title className="text-dark text-center fw-bold">{state.state}</Card.Title>
+                                    <Card.Title className="card-title text-center fw-bold">{state.state}</Card.Title>
                                 </Card.Body>
                             </Card>
                         </Link>

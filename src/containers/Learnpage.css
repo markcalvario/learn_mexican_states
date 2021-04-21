@@ -1,3 +1,15 @@
 .even-card-img{
     height: 200px;
 }
+.state-card:hover{
+    text-decoration: none !important;
+}
+.card-title{
+    color: black; 
+    text-decoration: none !important;
+}
+.card-title:hover{
+    color: black; 
+    text-decoration: none !important;
+    
+}

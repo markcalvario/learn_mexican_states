@@ -6,6 +6,7 @@ import NavBar from "./components/Navbar";
 import MexicanStatePage from "./containers/MexicanStatePage";
 import StartQuiz from "./containers/StartQuiz";
 import Quiz from "./containers/Quiz";
+import QuizResults from "./containers/QuizResults";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/learn/:id' component={MexicanStatePage} />
           <Route exact path='/quiz' component={StartQuiz} />
           <Route exact path='/quiz/start' component={Quiz} />
+          <Route exact path='/quiz_results' component={QuizResults} />
         </Switch>
       </Router>
   );

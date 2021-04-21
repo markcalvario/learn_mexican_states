@@ -8,17 +8,17 @@ import Col from "react-bootstrap/Col";
 
 const Title = styled.div`
     text-align:center;
-    font-size: 2.75rem;
-    padding: 4rem 0 0.25rem 0;
-    letter-spacing: 2px;
-    font-weight: 500;
+    font-size: 3.2rem;
+    padding: 4rem 0 0.35rem 0;
+    letter-spacing: 3px;
+    font-weight: 650;
 `;
 const SubTitle = styled.div`
     text-align:center;
     font-size: 1.2rem;
-    width: 60%;
+    width: 45%;
     margin: 0 auto;
-    padding: 0.25rem 0 2.5rem 0;
+    padding: 0.5rem 0 2.5rem 0;
 `;
 
 function StartQuiz() {
@@ -30,13 +30,14 @@ function StartQuiz() {
                     Feeling confident?
                 </Title>
                 <SubTitle>
-                    See how well you have learned where each Mexican state is located. Take the quiz now!
+                    Test your Mexican state geography.
+                    
                 </SubTitle>
             </Col>
         </Row>
         <Row className="pt-4">
             <Col xl={12} className="justify-content-center d-flex">
-                <Button link="/quiz/start" text="start"/>
+                <Button link="/quiz/start" text="start quiz"/>
             </Col>
         </Row>
     </Container>

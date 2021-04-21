@@ -2,6 +2,10 @@ import React,{useState,useEffect} from "react"
 import styled from "styled-components";
 import {Link} from "react-router-dom";
 
+//Material UI
+import TextField from '@material-ui/core/TextField';
+import Autocomplete from '@material-ui/lab/Autocomplete';
+
 //MAP
 import Mexico from "@svg-maps/mexico";
 import { SVGMap } from "react-svg-map";
@@ -15,12 +19,12 @@ import Arrow from '@elsdoerfer/react-arrow';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Form from "react-bootstrap/Form";
+// import Form from "react-bootstrap/Form";
 import Card from "react-bootstrap/Card"
 
 //CUSTOM COMPENENTS
 import Button from "../components/Button";
-
+// import Hint from "../components/Hint";
 const Title = styled.div`
     text-align:center;
     font-size: 2.75rem;
@@ -28,37 +32,73 @@ const Title = styled.div`
     letter-spacing: 2px;
     font-weight: 500;
 `;
+const BoldText = styled.span`
+    font-weight: 600;
+    text-transform: uppercase;
+`;
 function Quiz() {
     const [state, setState] = useState("");
-    const [question, setQuestion] = useState(1);
+    const [question, setQuestion] = useState(0);
     const [endOfQuiz, setEndOfQuiz] = useState(false);
     const [userResponse, setUserResponse] = useState("");
     const [userErrors, setUserErrors] = useState([]);
+    const [listOfQuestions,setListOfQuestions] = useState([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]);
+    const [showHint, setShowHint] = useState(false);
+    
+    const [mexicanStates, setMexicanStates] = useState([]);
+    function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        return array
+    }
+    useEffect ( ()=>{
+        setListOfQuestions(shuffleArray(listOfQuestions));
+        // console.log(listOfQuestions); 
+        async function fetchAllStates(){
+            let response = await fetch("/get_states");
+            response = await response.json();
+            let array_of_state_objects = response.states;
+            // array_of_state_objects.map((s)=>{
+            //     setMexicanStates( [ ...mexicanStates, s.state ] );
+            // })
+            setMexicanStates(array_of_state_objects);
+        }
+        fetchAllStates();
+        
+        
+    },[])
+    
+
+    
 
     //FETCH THE QUIZ QUESTION
     useEffect( ()=>{
         async function fetchQuestion(){
-            let response = await fetch(`/learn/${question}`);
+            let response = await fetch(`/learn/${listOfQuestions[question]}`);
             response = await response.json();
             setState(response.state);
+            // console.log(response.state)
         }
-        if (question<33){
+        if (question<32){
             fetchQuestion();
         }
         else{
             setEndOfQuiz(true);
         }
-
+        
         
     }, [question]);
 
-    const [validated, setValidated] = useState(false);
     const handleSubmit = (event) => {
         event.preventDefault();
         // setUserResponse(userResponse.trim());
         // setUserResponse(userResponse.toLowerCase());
-        console.log(userResponse);
         const stateOnMap = document.getElementById(state.abv);
+        
         if ( (userResponse.trim().toLowerCase() === state.state.toLowerCase()) || (userResponse.trim() === state.state) ){
             stateOnMap.classList.remove("svg-map__location");
             stateOnMap.classList.add("svg-map-right");
@@ -71,11 +111,15 @@ function Quiz() {
         setQuestion(question+1);
         // setValidated(true);
         setUserResponse("");
+        setShowHint(false);
     };
+
+  
 
   return (
     <>
         {endOfQuiz ? 
+
             <Container>
                 <Row>  
                     <Col xl={12} >
@@ -110,22 +154,42 @@ function Quiz() {
                             </Col>
                         )
                     })}
-        </Row>
-            </Container>
+                </Row>
+             </Container>
 
         :
             <Container>
                 <Row>
                     <Col xl={12}>
                         <Title>
-                            Identify the State
+                            Identify the State & Hit <BoldText>Enter</BoldText>
                         </Title>
+                    
                     </Col>
+                </Row>
+                <Row>
+        
+                    <div className="hint-section" style={{width:"20%"}}>
+                        <div>
+                            <h6>Need a hint? <span onClick={()=> setShowHint(true)}>Click here</span></h6>
+                        </div>
+                        {showHint? 
+                            <ul>
+                                {state.funFacts.map((fact, index)=>{
+                                    return (
+                                        <li key={index}>{fact}</li>
+                                    )
+                                })}
+                           
+                            </ul>
+                        
+                        :<></>}
+                    </div>
                 </Row>
                 <Row className="justify-content-center mx-auto w-75 py-4 mt-5">
                     <SVGMap id="mexico-map" map={Mexico} />
                 </Row> 
-                <div className={state.questionClass}>
+                <div className={`${state.questionClass}`}>
                     <Arrow
                             angle={255}
                             length={state.arrowLength}
@@ -133,7 +197,7 @@ function Quiz() {
                             width: `${state.arrowWidth}`
                             }}
                         />   
-                    <Form noValidate validated={validated} onSubmit={handleSubmit} style={{display:"inline-block"}}>
+                    {/* <Form onSubmit={handleSubmit} style={{display:"inline-block"}}>
                         <Form.Group>
                             <Form.Control  
                                 id="user-input" 
@@ -142,13 +206,34 @@ function Quiz() {
                                 placeholder="State"  
                                 value = {userResponse}
                                 onChange={(e) => setUserResponse(e.target.value)} 
-                                required 
+                                
                             />
                             <Form.Control.Feedback type="valid">
                                 Please enter a state.
                             </Form.Control.Feedback>
                         </Form.Group>
-                    </Form>
+                    </Form> */}
+                    <form className="autocomplete-input" onSubmit={handleSubmit}>
+                        <Autocomplete className="autocomplete-input" 
+                            id="combo-box-demo"
+                            options={mexicanStates}
+                            getOptionLabel={(option) => option.state}
+                            onChange={(event, value) => value ? setUserResponse(value.state) : setUserResponse('')}
+                            inputValue={userResponse}
+                            renderInput={(params) => 
+                                <TextField 
+                                    {...params} 
+                                    id="user-input" 
+                                    label="State" 
+                                    variant="outlined" 
+                                    //defaultValue={userResponse}
+                                    value={userResponse} 
+                                    onChange={(e) => setUserResponse(e.target.value)} 
+                                />
+                            }
+                        />
+                    </form>
+                    
                 </div>   
             </Container>
         

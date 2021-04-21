@@ -1,0 +1,9 @@
+.svg-map__location{
+    fill: white !important;
+}
+.svg-map-current{
+    fill:  black;
+}
+.svg-map__location:hover{
+    fill: white;
+}
