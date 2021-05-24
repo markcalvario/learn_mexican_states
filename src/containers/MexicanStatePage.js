@@ -15,7 +15,7 @@ import Button from "../components/Button";
 const Title = styled.div`
     text-align:center;
     font-size: 2.75rem;
-    padding: 0rem 0 1.5rem 0;
+    padding: 0rem 0 0.35rem 0;
     letter-spacing: 2px;
     font-weight: 700;
 `;
@@ -90,7 +90,7 @@ function MexicanStatePage() {
                             <Description>{mexicanState.description}</Description>
                         </div>
                         <div>
-                            <FunFactTitle className="pt-3 pb-2"> Fun Facts: </FunFactTitle>
+                            <FunFactTitle className="pt-5 pb-2"> Fun Facts: </FunFactTitle>
                             <ul>
                                 {mexicanState ? mexicanState.funFacts.map((fact, index)=>{
                                     return (

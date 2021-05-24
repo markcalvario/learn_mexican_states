@@ -18,6 +18,8 @@
 .hint-section span{
     color: blue;
     cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 #mexico-map{
     height:100px !important;
